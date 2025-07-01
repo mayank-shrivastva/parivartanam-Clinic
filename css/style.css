@@ -79,11 +79,17 @@ nav {
 
 .dropdown a {
   display: block;
-  padding: 10px 20px;
+  padding: 10px 15px;
+  color: #333;
   text-decoration: none;
-  color: #7d858b;
-  font-size: 15px;
+  border-bottom: 1px solid #eee; /* Line between items */
 }
+
+/* Last item ka border hattane ke liye */
+.dropdown a:last-child {
+  border-bottom: none;
+}
+
 
 .dropdown a:hover {
   background-color: #f2f2f2;
