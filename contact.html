@@ -7,8 +7,8 @@
     <title>Parivartanam Clinic</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/inside-page.css" />
-    <link rel="stylesheet" href="css/extra.css" />
-    <link rel="stylesheet" href="css/Aboutus.css" />
+   
+    <link rel="stylesheet" href="css/Contact-us.css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -34,11 +34,11 @@
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
 
-
+<a href="book-appointment.html">
         <button class="btn">
             Book Appointment
             <div class="circle">→</div>
-        </button>
+        </button></a>
 
         <div class="hamburger" onclick="toggleMenu()">
             <div></div>
@@ -54,6 +54,40 @@
             </div>
         </div>
     </section>
+
+    <section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="section-header">
+      <h2>Contact Us</h2>
+      <p>We're here to help you start your journey toward healing. Get in touch today.</p>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact-details">
+        <h3>Clinic Information</h3>
+        <ul>
+          <li><strong>Address:</strong> Shop no 22, Landmark building, medical mor, near Narula diagnostic centre, Rohtak, Haryana 124001</li>
+          <li><strong>Email:</strong> contact@parivartanamclinic.com</li>
+          <li><strong>Phone:</strong> +91-95184 48024</li>
+          <li><strong>Working Hours:</strong> Mon - Sat: 10 AM – 6 PM</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="#" method="POST">
+        <h3>Send Us a Message</h3>
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
     <footer class="bg-[#1F4D57] text-white pt-10 pb-4 rounded-t-2xl">
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
 
@@ -110,11 +144,11 @@
         <div class="border-t border-gray-600 mt-8 pt-4 text-sm text-center text-gray-400">
             <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-4">
                 <p>© 2025 . All rights reserved.</p>
-                <div class="flex space-x-6 mt-3 md:mt-0">
-                    <a href="/" class="hover:text-white">Home</a>
-                    <a href="/about-us" class="hover:text-white">About Us</a>
-                    <a href="/services" class="hover:text-white">Services</a>
-                    <a href="/contact" class="hover:text-white">Contact</a>
+              <div class="flex space-x-6 mt-3 md:mt-0">
+                    <a href="" class="hover:text-white">Home</a>
+                    <a href="about.html" class="hover:text-white">About Us</a>
+                  
+                    <a href="contact.html" class="hover:text-white">Contact</a>
                 </div>
             </div>
         </div>
