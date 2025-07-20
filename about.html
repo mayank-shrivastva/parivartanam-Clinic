@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parivartanam Clinic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/inside-page.css" />
+    <link rel="stylesheet" href="css/extra.css" />
+    <link rel="stylesheet" href="css/Aboutus.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./img/Picture1.jpg" alt="Logo" />
+            <!-- <span>Parivartanam Clinic</span>-->
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="services">
+                <a href="#">Services</a>
+                <div class="dropdown">
+                    <a href="therapies.html">Therapies</a>
+                    <a href="assessments.html">Assessments</a>
+                    <a href="disorders.html">Disorders</a>
+                    <a href="programmes.html">Programmes Offered</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+
+        <a href="book-appointment.html"> <button class="btn">
+                Book Appointment
+                <div class="circle">→</div>
+            </button></a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <section class="about-hero">
+        <div class="overlay">
+            <div class="content">
+                <h1>About us</h1>
+                <p><a href="index.html">Home</a> / About Us</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-modern">
+        <div class="image-column">
+            <div class="img-box large">
+                <img src="img/about1.jpg" alt="Main" />
+            </div>
+            <div class="img-row">
+                <div class="img-box small">
+                    <img src="img/about2.jpg" alt="Small1" />
+                </div>
+                <div class="img-box small">
+                    <img src="img/about3.jpg" alt="Small2" />
+                </div>
+            </div>
+        </div>
+        <div class="content-column">
+            <h5>About Us</h5>
+            <h2>Transforming Lives with Care & Compassion</h2>
+            <p>
+                At <strong>Parivartanam Clinic</strong>, we provide evidence-based, personalized care through
+                <strong>therapies</strong>, <strong>assessments</strong>, and <strong>disorder treatment
+                    programs</strong>. Our mission is to heal holistically — mind, body, and soul.
+            </p>
+            <ul class="about-points">
+                <li>✔ 5,000+ Happy Clients Served</li>
+                <li>✔ Licensed Therapists & Experts</li>
+                <li>✔ Customized Recovery Programs</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-r from-] via-[#] to-[#] py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-3xl sm:text-4xl font-bold text-gray-800 mb-12">Our Mission & Vision</h2>
+
+            <div class="grid md:grid-cols-2 gap-10 items-start">
+
+                <!-- Mission -->
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-md hover:-translate-y-1">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="bg-teal-100 p-3 rounded-full">
+                            <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 11c0 .556-.224 1.059-.586 1.414A2.004 2.004 0 0110 13c-.556 0-1.059-.224-1.414-.586A2.004 2.004 0 018 11c0-.556.224-1.059.586-1.414A2.004 2.004 0 0110 9c.556 0 1.059.224 1.414.586A2.004 2.004 0 0112 11zM12 19c-2.5-1.333-4-3.667-4-6.5C8 10.119 9.119 9 10.5 9S13 10.119 13 11.5c0 2.833-1.5 5.167-4 6.5z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Our Mission</h3>
+                    </div>
+                    <p class="text-gray-600 text-base leading-relaxed">
+                        To offer compassionate, evidence-based mental health care tailored to individual needs—
+                        nurturing self-discovery, emotional healing, and inner growth in a safe and supportive
+                        environment.
+                    </p>
+                </div>
+
+                <!-- Vision -->
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 hover:shadow-md hover:-translate-y-1">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="bg-yellow-100 p-3 rounded-full">
+                            <svg class="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6l4 2M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Our Vision</h3>
+                    </div>
+                    <p class="text-gray-600 text-base leading-relaxed">
+                        A world where mental health is universally valued, stigma is eliminated, and everyone has access
+                        to empathetic,
+                        transformative care that empowers them to live with purpose and peace.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-gradient-to-br from-white to--50 py-20 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Meet Our Team</h2>
+            <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+                A multidisciplinary team offering a <span class="font-semibold text-blue-700">holistic,
+                    personalized</span> approach to mental health—tailored treatment plans with flexible care options.
+            </p>
+
+            <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Team Member 1 -->
+                <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition duration-300">
+                    <img src="img/team1.jpg" alt="Dr. Aisha Khan"
+                        class="w-28 h-28 rounded-full mx-auto mb-4 object-cover shadow">
+                    <h3 class="text-xl font-semibold text-gray-800">Dr. Aisha Khan</h3>
+                    <p class="text-teal-600 text-sm">Marital Counselor</p>
+                    <p class="text-gray-600 mt-3 text-sm leading-relaxed">
+                        Specializes in marital therapy and stress management. Designs treatment plans that blend
+                        emotional, cognitive, and relational healing.
+                    </p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition duration-300">
+                    <img src="img/team2.jpg" alt="Rahul Mehta"
+                        class="w-28 h-28 rounded-full mx-auto mb-4 object-cover shadow">
+                    <h3 class="text-xl font-semibold text-gray-800">Rahul Mehta</h3>
+                    <p class="text-teal-600 text-sm">Relationship Issues Specialist</p>
+                    <p class="text-gray-600 mt-3 text-sm leading-relaxed">
+                        Offers individualized strategies for managing relationship conflicts, improving communication,
+                        and rebuilding trust.
+                    </p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition duration-300">
+                    <img src="img/team3.jpg" alt="Neha Verma"
+                        class="w-28 h-28 rounded-full mx-auto mb-4 object-cover shadow">
+                    <h3 class="text-xl font-semibold text-gray-800">Neha Verma</h3>
+                    <p class="text-teal-600 text-sm">Child Psychologist</p>
+                    <p class="text-gray-600 mt-3 text-sm leading-relaxed">
+                        Works closely with children and parents using evidence-based techniques tailored for
+                        developmental and behavioral needs.
+                    </p>
+                </div>
+
+                <!-- Team Member 4 -->
+
+            </div>
+
+            <div class="mt-12 text-center text-gray-700 text-sm">
+                *We believe every person deserves a care plan that fits their unique journey. Explore flexible therapy
+                and assessment options tailored for you.
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-[#1F4D57] text-white pt-10 pb-4 rounded-t-2xl">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- Left Section -->
+            <div>
+                <div class="flex items-center mb-4">
+                    <div
+                        class="w-10 h-10 bg-orange-400 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                        CM</div>
+                    <h2 class="ml-3 text-xl font-semibold">Parivartanam Clinic</h2>
+                </div>
+                <p class="text-gray-300 mb-4">
+                    We provide trusted, personalized care for lasting mental health and emotional well-being.
+                </p>
+                <div class="flex flex-col space-y-2 text-sm">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path d="M16 12H8m0 0l4-4m-4 4l4 4"></path>
+                        </svg>
+                        <span>Email: <a href="mailto:contact@xyz.in" class="hover:underline">contact@xyz.in</a></span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M3 5h2l.4 2M7 5h10l1 2h2a1 1 0 011 1v9a1 1 0 01-1 1h-2l-1 2H7l-1-2H4a1 1 0 01-1-1V8a1 1 0 011-1h2l.4-2z">
+                            </path>
+                        </svg>
+                        <span>Phone: <a href="tel:+919876543210" class="hover:underline">+91 98765 43210</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-4">Subscribe for Mental Health Tips</h3>
+                <p class="text-gray-300 mb-4">Get weekly insights and guidance on emotional wellness straight to your
+                    inbox.</p>
+                <form class="flex items-center bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Enter your email"
+                        class="flex-1 px-4 py-2 text-black outline-none" />
+                    <button type="submit" class="bg-orange-400 hover:bg-orange-500 px-4 py-2">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M2.94 2.94a.75.75 0 011.06 0L17.03 16.97a.75.75 0 01-1.06 1.06L2.94 4A.75.75 0 012.94 2.94z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="border-t border-gray-600 mt-8 pt-4 text-sm text-center text-gray-400">
+            <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-4">
+                <p>© 2025 . All rights reserved.</p>
+                <div class="flex space-x-6 mt-3 md:mt-0">
+                    <a href="" class="hover:text-white">Home</a>
+                    <a href="about.html" class="hover:text-white">About Us</a>
+
+                    <a href="contact.html" class="hover:text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/appoiment.js"></script>
+</body>
+
+</html>
